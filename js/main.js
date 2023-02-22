@@ -7,8 +7,9 @@ const inputButton = document.getElementById('genera');
 
 
 inputButton.addEventListener('click',
-    function(){
-        console.log(inputElement);
+    function (){
+        
+        console.log(inputElement.value);
     }
 
 )
